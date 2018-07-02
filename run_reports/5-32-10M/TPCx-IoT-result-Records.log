@@ -1,0 +1,339 @@
+
+[0;32mRunning Records test[0m
+[0;32mIoT data size is 10000000[0m
+[0;32mAll Output will be logged to file ./TPCx-IoT-result-Records.log[0m
+
+[0;32m===================================[0m
+[0;32m Running Cluster Validation Suite[0m
+[0;32m===================================[0m
+
+
+[0;32m ============= System  =========== [0m
+[0;32mSystem [0m
+
+
+[0;32mBIOS [0m
+
+
+[0;32mMemory [0m
+---------------
+comet-19-25.ibnet
+---------------
+ MemTotal:       131777004 kB
+
+
+[0;32mNumber of Dimms [0m
+---------------
+comet-19-25.ibnet
+---------------
+ DIMM slots: 0
+---------------
+comet-19-25.ibnet
+---------------
+ DIMM count is: 0
+
+
+[0;32mCPU [0m
+---------------
+comet-19-25.ibnet
+---------------
+ model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz
+
+---------------
+comet-19-25.ibnet
+---------------
+ Architecture:          x86_64
+ CPU(s):                24
+ On-line CPU(s) list:   0-23
+ Thread(s) per core:    1
+ Core(s) per socket:    12
+ Socket(s):             2
+ CPU MHz:               2501.000
+ L1d cache:             32K
+ L1i cache:             32K
+ L2 cache:              256K
+ L3 cache:              30720K
+ NUMA node0 CPU(s):     0-11
+ NUMA node1 CPU(s):     12-23
+
+
+[0;32mNIC [0m
+---------------
+comet-19-25.ibnet
+---------------
+ Settings for eth0:
+ Settings for peth0:
+ 	Speed: 10000Mb/s
+
+---------------
+comet-19-25.ibnet
+---------------
+ 81:00.0 Ethernet controller: Intel Corporation 82599ES 10-Gigabit SFI/SFP+ Network Connection (rev 01)
+ 81:00.1 Ethernet controller: Intel Corporation 82599ES 10-Gigabit SFI/SFP+ Network Connection (rev 01)
+
+
+
+[0;32mStorage [0m
+---------------
+comet-19-25.ibnet
+---------------
+ Storage Controller: 
+
+---------------
+comet-19-25.ibnet
+---------------
+ Modules linked in: vhost_net macvtap macvlan tun kvm_intel kvm microcode iTCO_wdt iTCO_vendor_support dcdbas zfs(P)(U) zcommon(P)(U) znvpair(P)(U) spl(U) zlib_deflate zavl(P)(U) zunicode(P)(U) ixgbe dca ptp pps_core mdio raid1 ipmi_devintf sb_edac edac_core i2c_i801 i2c_core sg lpc_ich mfd_core shpchp power_meter acpi_ipmi ipmi_si ipmi_msghandler tcp_htcp ext4 jbd2 mbcache raid0 sd_mod crc_t10dif xhci_hcd ahci dm_mirror dm_region_hash dm_log dm_mod [last unloaded: scsi_wait_scan]
+
+---------------
+comet-19-25.ibnet
+---------------
+      1	NAME SIZE
+      2	sda 149.1G
+      3	sdb 149.1G
+
+
+[0;32m ================ Software  ======================= [0m
+
+
+[0;32mLinux Release [0m
+---------------
+comet-19-25.ibnet
+---------------
+ CentOS release 6.7 (Final)
+ LSB_VERSION=base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarch
+ CentOS release 6.7 (Final)
+ Rocks release 6.2 (SideWinder)
+ CentOS release 6.7 (Final)
+
+
+[0;32mLinux Version [0m
+---------------
+comet-19-25.ibnet
+---------------
+ Linux 2.6.32-696.10.3.el6.x86_64 #1 SMP Tue Sep 26 18:14:22 UTC 2017
+ x86_64
+
+
+[0;32mDate [0m
+---------------
+comet-19-25.ibnet
+---------------
+ Fri Jun 29 08:34:58 PDT 2018
+
+
+[0;32mNTP Status [0m
+---------------
+comet-19-25.ibnet
+---------------
+ synchronised to NTP server (10.21.1.4) at stratum 4 
+
+
+[0;32mSELINUX [0m
+---------------
+comet-19-25.ibnet
+---------------
+ SElinux status: SELINUX=disabled
+
+
+[0;32mIPTables [0m
+---------------
+comet-19-25.ibnet
+---------------
+ iptables       	0:off	1:off	2:on	3:on	4:on	5:on	6:off
+
+---------------
+comet-19-25.ibnet
+---------------
+ iptables: Only usable by root.[WARNING]
+
+
+[0;32mTransparent Huge Pages [0m
+---------------
+comet-19-25.ibnet
+---------------
+ [always] madvise never
+ [always] madvise never
+
+
+[0;32mCPU Speed[0m
+---------------
+comet-19-25.ibnet
+---------------
+ CPUspeed Service: Frequency scaling enabled using performance governor
+---------------
+comet-19-25.ibnet
+---------------
+ CPUspeed Service: cpuspeed       	0:off	1:on	2:on	3:on	4:on	5:on	6:off
+
+
+[0;32mJava Version[0m
+---------------
+comet-19-25.ibnet
+---------------
+ openjdk version "1.8.0_161"
+ OpenJDK Runtime Environment (build 1.8.0_161-b14)
+ OpenJDK 64-Bit Server VM (build 25.161-b14, mixed mode)
+ JAVA_HOME is /usr/java/latest
+
+
+[0;32mHostname Lookup[0m
+
+
+[0;32mOpen File Limit[0m
+---------------
+comet-19-25.ibnet
+---------------
+ Open file limit(should be >32K): 32768
+[0;32mDrives mounted[0m
+---------------
+comet-19-25.ibnet
+---------------
+ Drives mounted:rootfs / rootfs rw 0 0
+ proc /proc proc rw,relatime 0 0
+ sysfs /sys sysfs rw,relatime 0 0
+ devtmpfs /dev devtmpfs rw,relatime,size=65841380k,nr_inodes=16460345,mode=755 0 0
+ devpts /dev/pts devpts rw,relatime,gid=5,mode=620,ptmxmode=000 0 0
+ tmpfs /dev/shm tmpfs rw,nosuid,nodev,relatime 0 0
+ /dev/md1 / ext4 rw,relatime,barrier=1,stripe=256,data=ordered 0 0
+ /proc/bus/usb /proc/bus/usb usbfs rw,relatime 0 0
+ /dev/md0 /boot ext4 rw,nosuid,nodev,relatime,barrier=1,data=ordered 0 0
+ none /proc/sys/fs/binfmt_misc binfmt_misc rw,relatime 0 0
+ cgroup /cgroup/cpuset cgroup rw,relatime,cpuset 0 0
+ cgroup /cgroup/cpu cgroup rw,relatime,cpu 0 0
+ cgroup /cgroup/cpuacct cgroup rw,relatime,cpuacct 0 0
+ cgroup /cgroup/memory cgroup rw,relatime,memory 0 0
+ cgroup /cgroup/devices cgroup rw,relatime,devices 0 0
+ cgroup /cgroup/freezer cgroup rw,relatime,freezer 0 0
+ cgroup /cgroup/net_cls cgroup rw,relatime,net_cls 0 0
+ cgroup /cgroup/blkio cgroup rw,relatime,blkio 0 0
+ scratch /scratch zfs rw,xattr,noacl 0 0
+ sunrpc /var/lib/nfs/rpc_pipefs rpc_pipefs rw,relatime 0 0
+ 192.168.0.6@tcp:192.168.8.6@tcp:/wombat /oasis/scratch/comet lustre rw,nosuid,nodev,flock,lazystatfs 0 0
+ 192.168.16.6@tcp:192.168.24.6@tcp:/panda /oasis/projects/nsf lustre rw,nosuid,nodev,flock,lazystatfs 0 0
+ /etc/auto.share /share autofs rw,relatime,fd=6,pgrp=7466,timeout=1200,minproto=5,maxproto=5,indirect 0 0
+ /etc/auto.home /home autofs rw,relatime,fd=12,pgrp=7466,timeout=1200,minproto=5,maxproto=5,indirect 0 0
+ /etc/auto.projects /projects autofs rw,relatime,fd=18,pgrp=7466,timeout=1200,minproto=5,maxproto=5,indirect 0 0
+ /etc/auto.images /mnt/images autofs rw,relatime,fd=24,pgrp=7466,timeout=1200,minproto=5,maxproto=5,indirect 0 0
+ /etc/auto.direct /opt/gaussian autofs rw,relatime,fd=30,pgrp=7466,timeout=300,minproto=5,maxproto=5,direct 0 0
+ /etc/auto.direct /opt/intel/composer_xe_2015.2.164 autofs rw,relatime,fd=30,pgrp=7466,timeout=300,minproto=5,maxproto=5,direct 0 0
+ /etc/auto.direct /opt/matlab autofs rw,relatime,fd=30,pgrp=7466,timeout=300,minproto=5,maxproto=5,direct 0 0
+ /etc/auto.direct /opt/intel/licenses autofs rw,relatime,fd=30,pgrp=7466,timeout=300,minproto=5,maxproto=5,direct 0 0
+ /etc/auto.direct /opt/intel/2016.3.210 autofs rw,relatime,fd=30,pgrp=7466,timeout=300,minproto=5,maxproto=5,direct 0 0
+ /etc/auto.cvmfs /cvmfs autofs rw,relatime,fd=35,pgrp=7466,timeout=1200,minproto=5,maxproto=5,indirect 0 0
+ /etc/auto.community /software/community autofs rw,relatime,fd=41,pgrp=7466,timeout=120,minproto=5,maxproto=5,indirect 0 0
+ debugfs /sys/kernel/debug debugfs rw,relatime 0 0
+ 10.22.10.12:/export/nfs-32-2/home/klin/ /home/klin nfs4 rw,nosuid,nodev,relatime,vers=4,rsize=32768,wsize=32768,namlen=255,hard,proto=tcp,port=0,timeo=600,retrans=2,sec=sys,clientaddr=10.22.251.30,minorversion=0,local_lock=none,addr=10.22.10.12 0 0
+[0;32m Checking Database status and stats[0m
+HBase Shell; enter 'help<RETURN>' for list of supported commands.
+Type "exit<RETURN>" to leave the HBase Shell
+Version 1.2.6, rUnknown, Mon May 29 02:25:32 CDT 2017
+
+status 'simple'
+active master:  comet-19-21.sdsc.edu:16000 1530286490277
+0 backup masters
+4 live servers
+    comet-19-25.sdsc.edu:16020 1530286491686
+        requestsPerSecond=1.0, numberOfOnlineRegions=1, usedHeapMB=289, maxHeapMB=989, numberOfStores=1, numberOfStorefiles=0, storefileUncompressedSizeMB=0, storefileSizeMB=0, memstoreSizeMB=0, storefileIndexSizeMB=0, readRequestsCount=6, writeRequestsCount=2, rootIndexSizeKB=0, totalStaticIndexSizeKB=0, totalStaticBloomSizeKB=0, totalCompactingKVs=0, currentCompactedKVs=0, compactionProgressPct=NaN, coprocessors=[]
+    comet-19-24.sdsc.edu:16020 1530286491735
+        requestsPerSecond=0.0, numberOfOnlineRegions=0, usedHeapMB=245, maxHeapMB=989, numberOfStores=0, numberOfStorefiles=0, storefileUncompressedSizeMB=0, storefileSizeMB=0, memstoreSizeMB=0, storefileIndexSizeMB=0, readRequestsCount=0, writeRequestsCount=0, rootIndexSizeKB=0, totalStaticIndexSizeKB=0, totalStaticBloomSizeKB=0, totalCompactingKVs=0, currentCompactedKVs=0, compactionProgressPct=NaN, coprocessors=[]
+    comet-19-22.sdsc.edu:16020 1530286491722
+        requestsPerSecond=3.0, numberOfOnlineRegions=1, usedHeapMB=42, maxHeapMB=989, numberOfStores=1, numberOfStorefiles=0, storefileUncompressedSizeMB=0, storefileSizeMB=0, memstoreSizeMB=0, storefileIndexSizeMB=0, readRequestsCount=1, writeRequestsCount=2, rootIndexSizeKB=0, totalStaticIndexSizeKB=0, totalStaticBloomSizeKB=0, totalCompactingKVs=0, currentCompactedKVs=0, compactionProgressPct=NaN, coprocessors=[MultiRowMutationEndpoint]
+    comet-19-23.sdsc.edu:16020 1530286491725
+        requestsPerSecond=0.0, numberOfOnlineRegions=0, usedHeapMB=241, maxHeapMB=989, numberOfStores=0, numberOfStorefiles=0, storefileUncompressedSizeMB=0, storefileSizeMB=0, memstoreSizeMB=0, storefileIndexSizeMB=0, readRequestsCount=0, writeRequestsCount=0, rootIndexSizeKB=0, totalStaticIndexSizeKB=0, totalStaticBloomSizeKB=0, totalCompactingKVs=0, currentCompactedKVs=0, compactionProgressPct=NaN, coprocessors=[]
+0 dead servers
+Aggregate load: 4, regions: 2
+
+
+[0;32m End of Cluster Validation Suite[0m
+
+
+[0;32mChecking if the IoT Data Table exists already [0m
+[0;32mRunning Records test with 1 client [0m
+[0;32m===================================[0m
+[0;32mDeleting Previous Data - Start - Fri Jun 29 08:35:19 PDT 2018[0m
+[0;32mDeleting Previous Data - End - Fri Jun 29 08:36:27 PDT 2018[0m
+[0;32m===================================[0m
+
+
+[0;32mWarmup Run - Start - Fri Jun 29 08:36:27 PDT 2018[0m
+cat driver_host_list.txt
+comet-19-21.ibnet
+nohup /home/klin/TPCx-IoT-v1.0.3/TPC-IoT-client.sh 10000000 Records 1 comet-19-21.ibnet
+master file pids =  646
+All drivers have completed
+[0;32mWarmup Run - End - Fri Jun 29 08:43:48 PDT 2018[0m
+[0;32mMeasured Run - Start - Fri Jun 29 08:43:48 PDT 2018[0m
+All drivers have completed
+[0;32mMeasured Run - End - Fri Jun 29 08:53:38 PDT 2018[0m
+
+
+[0;32mStarting Data Validation [0m
+[0;32mData Validation Success === Replication factor is greater than 2 [0m
+
+
+[0;32mStarting count of rows in table [0m
+[0;32mData Validation Success === Run result is ok, 20798567 records are inserted  [0m
+
+
+[0;32mTest Run 1 : Total Time In Seconds = 588.961 [0m
+[0;32m===============================================[0m
+
+[0;32mmd5sum of core components:[0m
+752c868285d959b95fc300225c7d85f8  ./TPC-IoT-master.sh
+68379f9375c7b584fc3253dfe9c4f7a6  ./tpcx-iot/lib/core-0.13.0-SNAPSHOT.jar
+9146219a740a4838dbc3f82d72f7f6fd  ./IoT_cluster_validate_suite.sh
+
+[0;32m===============================================[0m
+[0;32mTPCx-IoT Performance Metric (IoTps) Report [0m
+
+[0;32mTest Run 1 details : Total Time For Warmup Run In Seconds = 440.214 [0m
+[0;32mTest Run 1 details : Total Time In Seconds = 588.961 [0m
+[0;32m                      Total Number of Records = 10000000 [0m
+
+[0;32mTPCx-IoT Performance Metric (IoTps): 16979.0529 [0m
+
+[0;32m===============================================[0m
+[0;32m===================================[0m
+[0;32mDeleting Previous Data - Start - Fri Jun 29 09:01:15 PDT 2018[0m
+[0;32mDeleting Previous Data - End - Fri Jun 29 09:02:29 PDT 2018[0m
+[0;32m===================================[0m
+
+
+[0;32mWarmup Run - Start - Fri Jun 29 09:02:29 PDT 2018[0m
+cat driver_host_list.txt
+comet-19-21.ibnet
+nohup /home/klin/TPCx-IoT-v1.0.3/TPC-IoT-client.sh 10000000 Records 2 comet-19-21.ibnet
+master file pids =  14242 27917
+All drivers have completed
+[0;32mWarmup Run - End - Fri Jun 29 09:09:36 PDT 2018[0m
+[0;32mMeasured Run - Start - Fri Jun 29 09:09:36 PDT 2018[0m
+All drivers have completed
+[0;32mMeasured Run - End - Fri Jun 29 09:19:01 PDT 2018[0m
+
+
+[0;32mStarting Data Validation [0m
+[0;32mData Validation Success === Replication factor is greater than 2 [0m
+
+
+[0;32mStarting count of rows in table [0m
+[0;32mData Validation Success === Run result is ok, 20798529 records are inserted  [0m
+
+
+[0;32mTest Run 2 : Total Time In Seconds = 564.085 [0m
+[0;32m===============================================[0m
+
+[0;32mmd5sum of core components:[0m
+752c868285d959b95fc300225c7d85f8  ./TPC-IoT-master.sh
+68379f9375c7b584fc3253dfe9c4f7a6  ./tpcx-iot/lib/core-0.13.0-SNAPSHOT.jar
+9146219a740a4838dbc3f82d72f7f6fd  ./IoT_cluster_validate_suite.sh
+
+[0;32m===============================================[0m
+[0;32mTPCx-IoT Performance Metric (IoTps) Report [0m
+
+[0;32mTest Run 2 details : Total Time For Warmup Run In Seconds = 426.240 [0m
+[0;32mTest Run 2 details : Total Time In Seconds = 564.085 [0m
+[0;32m                      Total Number of Records = 10000000 [0m
+
+[0;32mTPCx-IoT Performance Metric (IoTps): 17727.8247 [0m
+
+[0;32m===============================================[0m

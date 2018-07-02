@@ -1,0 +1,13 @@
+# User specific aliases and functions
+export HADOOP_HOME=$HOME/hadoop-stack/hadoop-2.6.5
+export PATH=$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$PATH
+export HBASE_HOME=$HOME/hadoop-stack/hbase-1.2.6
+export PATH=$HBASE_HOME/bin:$PATH
+export PATH=$HOME/hadoop-stack/myHadoop/bin:$PATH
+export HADOOP_CONF_DIR=$HOME/hadoop-stack/mycluster.conf
+export HBASE_CONF_DIR=$HADOOP_CONF_DIR
+export JVMFLAGS="-Djute.maxbuffer=4294967296"
+export SERVER_JVMFLAGS=$JVMFLAGS
+
+ulimit -n 32768
+ulimit -u 32768

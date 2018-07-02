@@ -1,0 +1,8 @@
+[klin@comet-ln2 hadoop-stack]$ squeue -u $USER
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+          17595261   compute  tpc-iot     klin CG   15:33:33      1 comet-19-25
+
+[klin@comet-ln2 hadoop-stack]$ ./hdfs_size_check.sh
+2018-06-29 01:27:52,984 WARN  [main] util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Filesystem                         Size     Used  Available  Use%
+hdfs://comet-19-21.ibnet:54310  837.0 G  641.7 G    193.4 G   77%

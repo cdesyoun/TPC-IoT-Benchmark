@@ -1,0 +1,28 @@
+HBase Shell; enter 'help<RETURN>' for list of supported commands.
+Type "exit<RETURN>" to leave the HBase Shell
+Version 1.2.6, rUnknown, Mon May 29 02:25:32 CDT 2017
+
+count 'usertable', INTERVAL=>1000000
+Current count: 1000000, row: comet-19-21.ibnet11:cent_9_vibration:1533448678768
+Current count: 2000000, row: comet-19-21.ibnet13:ang_30_Flow:1531180338735
+Current count: 3000000, row: comet-19-21.ibnet14:cor_4_Flow:1531755938752
+Current count: 4000000, row: comet-19-21.ibnet16:ang_30_vibration:1532642419821
+Current count: 5000000, row: comet-19-21.ibnet17:cor_5_Flow:1533046908768
+Current count: 6000000, row: comet-19-21.ibnet19:ang_60_Flow:1530555909884
+Current count: 7000000, row: comet-19-21.ibnet1:mid_1125_Humidity:1530801678768
+Current count: 8000000, row: comet-19-21.ibnet21:ang_90_Flow:1531357298760
+Current count: 9000000, row: comet-19-21.ibnet22:side_7_Humidity:1532006930095
+Current count: 10000000, row: comet-19-21.ibnet24:bef_1195_Flow:1531993700235
+Current count: 11000000, row: comet-19-21.ibnet25:side_8_Flow:1533210520458
+Current count: 12000000, row: comet-19-21.ibnet27:cent_9_Flow:1533276940606
+Current count: 13000000, row: comet-19-21.ibnet29:aft_1120_Flow:1531025050867
+Current count: 14000000, row: comet-19-21.ibnet2:cor_1_Flow:1531257058774
+Current count: 15000000, row: comet-19-21.ibnet31:ang_30_Flow:1532378588930
+Current count: 16000000, row: comet-19-21.ibnet32:cor_4_Flow:1533130511279
+Current count: 17000000, row: comet-19-21.ibnet4:ang_30_vibration:1533330658723
+Current count: 18000000, row: comet-19-21.ibnet5:cor_5_Humidity:1530848709636
+Current count: 19000000, row: comet-19-21.ibnet7:ang_60_Flow:1530612239663
+Current count: 20000000, row: comet-19-21.ibnet8:mid_1125_Humidity:1531705078755
+20798567 row(s) in 452.0530 seconds
+
+20798567

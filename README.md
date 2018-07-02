@@ -1,1 +1,1 @@
-# TPC-IoT-Benchmark
+# TPCx-IoT-Benchmark

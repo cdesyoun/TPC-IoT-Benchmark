@@ -1,0 +1,471 @@
+Enter client file
+/home/klin/TPCx-IoT-v1.0.3 Records comet-19-21.ibnet run 2
+
+ Running TPCx-IoT Benchmark Suite - Run 2 - Epoch 1530241457411 
+ TPCx-IoT Version  
+
+check 1
+Starting IoT Run 2 output being return to /home/klin/TPCx-IoT-v1.0.3/logs/IoT-run-time-run2.txt 
+check 2
+>>>>>>>> /home/klin/TPCx-IoT-v1.0.3/TPC-IoT-instances.sh 100000000 32 10 0 comet-19-21.ibnet hbase12 run
+>>>>>>>>> entering instances
+intance Operation: 3125000
+instance Tread: 10
+1
+insertstart=0
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_1_workload -p columnfamily=cf -p client=comet-19-21.ibnet1 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet1.dat
+2
+insertstart=3125000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_2_workload -p columnfamily=cf -p client=comet-19-21.ibnet2 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet2.dat
+3
+insertstart=6250000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_3_workload -p columnfamily=cf -p client=comet-19-21.ibnet3 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet3.dat
+4
+insertstart=9375000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_4_workload -p columnfamily=cf -p client=comet-19-21.ibnet4 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet4.dat
+5
+insertstart=12500000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_5_workload -p columnfamily=cf -p client=comet-19-21.ibnet5 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet5.dat
+6
+insertstart=15625000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_6_workload -p columnfamily=cf -p client=comet-19-21.ibnet6 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet6.dat
+7
+insertstart=18750000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_7_workload -p columnfamily=cf -p client=comet-19-21.ibnet7 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet7.dat
+8
+insertstart=21875000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_8_workload -p columnfamily=cf -p client=comet-19-21.ibnet8 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet8.dat
+9
+insertstart=25000000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_9_workload -p columnfamily=cf -p client=comet-19-21.ibnet9 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet9.dat
+10
+insertstart=28125000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_10_workload -p columnfamily=cf -p client=comet-19-21.ibnet10 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet10.dat
+11
+insertstart=31250000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_11_workload -p columnfamily=cf -p client=comet-19-21.ibnet11 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet11.dat
+12
+insertstart=34375000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_12_workload -p columnfamily=cf -p client=comet-19-21.ibnet12 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet12.dat
+13
+insertstart=37500000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_13_workload -p columnfamily=cf -p client=comet-19-21.ibnet13 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet13.dat
+14
+insertstart=40625000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_14_workload -p columnfamily=cf -p client=comet-19-21.ibnet14 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet14.dat
+15
+insertstart=43750000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_15_workload -p columnfamily=cf -p client=comet-19-21.ibnet15 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet15.dat
+16
+insertstart=46875000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_16_workload -p columnfamily=cf -p client=comet-19-21.ibnet16 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet16.dat
+17
+insertstart=50000000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_17_workload -p columnfamily=cf -p client=comet-19-21.ibnet17 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet17.dat
+18
+insertstart=53125000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_18_workload -p columnfamily=cf -p client=comet-19-21.ibnet18 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet18.dat
+19
+insertstart=56250000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_19_workload -p columnfamily=cf -p client=comet-19-21.ibnet19 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet19.dat
+20
+insertstart=59375000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_20_workload -p columnfamily=cf -p client=comet-19-21.ibnet20 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet20.dat
+21
+insertstart=62500000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_21_workload -p columnfamily=cf -p client=comet-19-21.ibnet21 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet21.dat
+22
+insertstart=65625000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_22_workload -p columnfamily=cf -p client=comet-19-21.ibnet22 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet22.dat
+23
+insertstart=68750000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_23_workload -p columnfamily=cf -p client=comet-19-21.ibnet23 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet23.dat
+24
+insertstart=71875000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_24_workload -p columnfamily=cf -p client=comet-19-21.ibnet24 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet24.dat
+25
+insertstart=75000000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_25_workload -p columnfamily=cf -p client=comet-19-21.ibnet25 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet25.dat
+26
+insertstart=78125000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_26_workload -p columnfamily=cf -p client=comet-19-21.ibnet26 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet26.dat
+27
+insertstart=81250000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_27_workload -p columnfamily=cf -p client=comet-19-21.ibnet27 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet27.dat
+28
+insertstart=84375000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_28_workload -p columnfamily=cf -p client=comet-19-21.ibnet28 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet28.dat
+29
+insertstart=87500000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_29_workload -p columnfamily=cf -p client=comet-19-21.ibnet29 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet29.dat
+30
+insertstart=90625000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_30_workload -p columnfamily=cf -p client=comet-19-21.ibnet30 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet30.dat
+31
+insertstart=93750000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_31_workload -p columnfamily=cf -p client=comet-19-21.ibnet31 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet31.dat
+32
+insertstart=96875000
+insertcount=3125000
+recordcount=100000000
+operationcount=3125000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+readallfields=true
+readproportion=0.0
+updateproportion=0.0
+# scanproportion=0
+insertproportion=1
+threadcount=10
+requestdistribution=uniform
+/home/klin/TPCx-IoT-v1.0.3/tpcx-iot/bin/tpcx-iot  run hbase12 -P ./tpc_iot_instance_comet-19-21.ibnet_32_workload -p columnfamily=cf -p client=comet-19-21.ibnet32 -s > /home/klin/TPCx-IoT-v1.0.3/logs/dbruncomet-19-21.ibnet32.dat
+instaces pids =  19805 19812 19819 19912 19939 19957 19996 20027 20072 20119 20164 20208 20266 20300 20356 20491 20566 20613 20665 20689 20742 20788 20830 20882 20948 20999 21037 21106 21219 21279 21314 21441
+All done
+Run Result SUCCESS===All records can be queried and inserted 
+
+
+======== Workload IoT Run Result SUCCESS ========
+======== Time taken by Workload IoT = ====
+
+
+Test Run 2 on comet-19-21.ibnet details: Total Time = 14660.357 
