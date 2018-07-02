@@ -2,7 +2,7 @@
 ################################################################################
 #  Designed to run on SDSC's Comet resource.
 ################################################################################
-#SBATCH -A sds169
+#SBATCH -A test1234
 #SBATCH --job-name="tpc-iot"
 #SBATCH --output="tpc-iot.%j.%N.out"
 #SBATCH --partition=compute
